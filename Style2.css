@@ -1,0 +1,284 @@
+*{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+ main{
+	background-color: darkblue;
+}
+
+
+
+.fitaled1{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(to right, red, orange, blue);
+	background-size: 500% 100%;
+	animation-name: degrade;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.fitaled2{
+	width: 100%;
+	height: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(to right, red, orange, blue);
+	background-size: 500% 100%;
+	animation-name: degrade;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+
+@keyframes degrade{
+		0%{
+			background-position-x: 0%;
+		}
+		100%{
+			background-position: 100%;
+		}
+	}
+
+
+.login{
+	background-image: url(../Contatto/Imagens/Fundo1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 600px;
+}
+
+.Promocao{
+	width: 100%;
+	height: 200px;
+}
+
+	.fitaled3{
+		width: 90%;
+		height: 150px;
+		margin: auto;
+		border-radius: 20px;
+		margin-top: 3%;
+		background: linear-gradient(to right, red, orange, blue);
+		background-size: 500% 100%;
+		animation-name: degrade;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+	}
+
+
+.Fundo1{
+	background-image: url(../Contatto/Imagens/Fundo4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	border-radius: 25px;
+	width: 98%;
+	height: 680px;
+	margin: auto;
+}
+
+
+		.Fundo1 .pia{
+			background-image: url(../Contatto/Imagens/pia.png);	
+			background-position: center;
+			background-repeat: no-repeat;
+			width: 500px;
+			height: 495px;
+			margin-top: 6%;
+			margin-left: 13%;
+			border-radius: 20px;
+
+		}
+
+		.Fundo1 .torneira{
+		background-image: url(../Contatto/Imagens/torneira2.jpg);
+		background-position: center;	
+		width: 243px;
+		height: 241px;
+		border-radius: 20px;
+		margin-left: 520px;
+	}
+
+		.Fundo1 .churras{
+		background-image: url(../Contatto/Imagens/churras.jpg);	
+		background-position: center;
+		width: 243px;
+		height: 241px;
+		border-radius: 20px;
+		margin-left: 265px;
+	}
+
+		.Fundo1 .fechadura{
+		background-image: url(../Contatto/Imagens/fechadura.jpg);
+		background-position: center;
+		width: 508px;
+		height: 241px;	
+		border-radius: 20px;
+		margin-top: 13px;
+		margin-left: 520px;
+	}
+
+
+
+
+
+
+.Bianco{
+	background-image: url(../Contatto/Imagens/Bianco.jpg);	
+	width: 500px;
+	height: 495px;
+	border-radius: 25px;
+	margin: 3%;
+	margin-left: 13%;
+}
+
+	.Sika{
+	background-image: url(../Contatto/Imagens/Sika.jpg);	
+	width: 500px;
+	height: 495px;
+	border-radius: 25px;
+	margin-left: 110%;
+}
+
+
+ .Fundo-branco{
+ 	margin-top: 100px;
+ }
+
+
+.Fundo2{
+	background-image: url(../Contatto/Imagens/Fundo2.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+
+	display: flex;
+}
+
+
+	.End1{
+		background-image: url(../Contatto/Imagens/Fundo2.jpg);
+		width: 100%;
+		height: 250px;
+		display: flex;
+	}
+
+	.Formulario form{
+		width: 80%;
+		height: 50px;
+		align-items: center;
+		border-radius: 100px;
+		box-shadow: 0 10px 20px black;
+		display: flex;
+		gap: 10px;
+		margin: 10%;
+		margin-top: 8%;
+	}
+
+
+.pagamento{
+	width: 100%;
+	height: 150px;
+
+}
+
+	.Visa{
+		background-image: url(../Contatto/Imagens/visa.jpg);
+		width: 120px;
+		height: 80px;
+		margin-top: 30px;
+		margin-left: 15%;
+	}
+
+	.Mastercard{
+		background-image: url(../Contatto/Imagens/mastercard.jpg);
+		width: 120px;
+		height: 80px;
+		margin-left: 110%;
+	}
+
+	.Hipercard{
+		background-image: url(../Contatto/Imagens/hipercard.jpg);
+		width: 120px;
+		height: 80px;
+		margin-left: 120%;
+	}
+
+	.Diners{
+		background-image: url(../Contatto/Imagens/diners.jpg);
+		width: 120px;
+		height: 80px;
+		margin-left: 120%;
+	}
+
+	.Elo{
+		background-image: url(../Contatto/Imagens/elo.jpg);
+		width: 120px;
+		height: 80px;
+		margin-left: 120%;
+	}
+
+	.Pix{
+		background-image: url(../Contatto/Imagens/pix.jpg);
+		width: 120px;
+		height: 80px;
+		margin-left: 120%;
+	}
+
+	.Picpay{
+		background-image: url(../Contatto/Imagens/picpay.jpg);
+		width: 120px;
+		height: 80px;
+		margin-left: 120%;
+	}
+
+
+
+.End2{
+	width: 100%;
+	height: 70px;
+	background-color: #f4f4f4;
+	margin-top: -30px;
+}
+
+	.End2 p{
+		text-align: center;
+		font-size: 20px;
+		padding-top: 2%;
+	}
+
+	.End2 h3{
+		text-align: center;
+		justify-content: center;
+		font-size: 17px;
+		background-color: #f4f4f4;
+	}
+
+.End3{
+	width: 100%;
+	height: 180px;
+	display: flex;
+}
+
+	.marca{
+		background-image: url(../Contatto/Imagens/logo.png);
+		width: 70px;
+		height: 70px;
+		margin: auto;
+		margin-top: 7%;
+	}
